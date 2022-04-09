@@ -1,0 +1,283 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+}
+
+#header-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 3rem 5rem 3rem;
+}
+
+#header-button p {
+  width: 50%;
+  text-align: center;
+  margin: 2rem;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+nav > button {
+  background-color: white;
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 20px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  padding: 5px 20px;
+  box-shadow: none;
+}
+
+button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: 0px;
+  border-radius: 3rem;
+  padding: 1rem 4.7rem;
+  font-family: "Open Sans";
+  font-weight: 600;
+  box-shadow: 5px 5px 5px #0000001e;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: hsla(322, 100%, 66%, 0.801);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+#main-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-14k {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 7rem 3rem 5rem 3rem;
+}
+
+#img-center {
+  display: flex;
+  justify-content: center;
+}
+
+.km h1 {
+  font-size: 4.5rem;
+}
+
+.km h4 {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.815);
+}
+
+.container-images {
+  display: flex;
+  background-color: hsl(207, 100%, 98%);
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.vw50 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.fontp {
+  font-family: "Open Sans";
+  width: 80%;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.vw51 {
+  width: 40%;
+  height: 50%;
+}
+
+.container-images1 {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50%;
+}
+
+.vw61 {
+  width: 40%;
+  height: 50%;
+}
+
+.vw60 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.fontp {
+  font-family: "Open Sans";
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: start;
+  width: 80%;
+}
+
+.fontp1 {
+  font-family: "Open Sans";
+  margin-top: 1rem;
+  font-weight: 600;
+  text-align: start;
+  width: 100%;
+}
+
+.titulop {
+  text-align: start;
+}
+
+.container-images3 {
+  display: flex;
+  background-color: hsl(207, 100%, 98%);
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.margin {
+  margin-top: 10rem;
+}
+
+.butao {
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.butao button {
+  margin-top: 2rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: left;
+}
+
+.iconsize {
+  width: 40px;
+  height: 40px;
+  margin: 5rem 0.9rem 1rem 0;
+  filter: brightness(0) invert(1);
+}
+.iconsize:hover {
+  filter: brightness(0.25);
+}
+
+.iconsize1 {
+  width: 20px;
+  height: 20px;
+  margin: 1rem 0.9rem 0 0.9rem;
+  filter: brightness(0) invert(1);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.img-verde {
+  margin-bottom: -0.5rem;
+  width: 100%;
+}
+
+footer {
+  margin-top: 10rem;
+  color: white;
+}
+
+footer p {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.toloco {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7rem 0 7rem 0;
+}
+
+.message {
+  filter: brightness(0) invert(1);
+  height: 3.5rem;
+  width: 20rem;
+}
+
+.footer-flex p {
+  margin-top: 1.5rem;
+  width: 80%;
+}
+
+.email-tel {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.submit {
+  display: flex;
+  margin-top: 2rem;
+}
+
+input {
+  padding-left: 1rem;
+  color: black;
+  border-radius: 0.5rem;
+  border: none;
+  width: 60%;
+}
+
+.botaosubmit:hover {
+  cursor: pointer;
+  background-color: hsla(322, 100%, 66%, 0.801);
+}
+
+.botaosubmit {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  border: 0px;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-family: "Open Sans";
+  font-weight: 600;
+  margin-left: 1rem;
+  width: 20%;
+}
